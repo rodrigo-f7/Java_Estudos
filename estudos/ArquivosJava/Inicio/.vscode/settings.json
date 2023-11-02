@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "ExerciciosGerais",
+        "Zero",
+        "Variaveis",
+        "EntradaDeDados"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
+}

@@ -1,4 +1,4 @@
-package meu_package;
+package calculo_area.meu_package;
 
 public class Main {
     public static void main(String[] args) {
