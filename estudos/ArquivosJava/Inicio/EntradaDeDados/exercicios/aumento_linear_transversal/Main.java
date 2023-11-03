@@ -1,4 +1,4 @@
-package exercicios.AumentoLinearTransversal;
+package exercicios.aumento_linear_transversal;
 
 // Autor: Rodrigo Pereira
 // Data: 02/11
@@ -18,11 +18,11 @@ public class Main {
 
         System.out.print("Digite a distância da imagem até a lente (sempre negativa): ");
         distanciaDaImagem = input.nextDouble();
+        input.close();
 
         distanciaDoObjeto = (-distanciaDaImagem * tamanhoDoObjeto) / tamanhoDaImagem;
         System.out.println("Com os valores passados, dentre eles I = " + tamanhoDaImagem + ", O = " + tamanhoDoObjeto + ", p' = " + distanciaDaImagem + ". O valor encontrado para a distância do objeto até a lente foi: " + distanciaDoObjeto);
         
-        input.close();
    } 
 }
 

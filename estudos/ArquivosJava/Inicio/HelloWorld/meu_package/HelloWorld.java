@@ -1,6 +1,7 @@
 package meu_package;
 //Meu primeiro programa
-//Rodrigo Pereira Faria 02/10/2023
+//Rodrigo Pereira Faria 
+//02/10/2023
 //Programa de Impressão de texto
 public class HelloWorld {
     public static void main(String[] args){

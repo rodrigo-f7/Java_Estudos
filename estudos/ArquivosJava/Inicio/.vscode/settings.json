@@ -1,9 +1,16 @@
 {
     "java.project.sourcePaths": [
+        "EntradaDeDados",
         "ExerciciosGerais",
-        "Zero",
         "Variaveis",
-        "EntradaDeDados"
+        "HelloWorld",
+        "Operadores",
+        "SaidaDeDados",
+        "EstruturasDeRepeticao",
+        "Condicionais",
+        "TratamentoDeExcecoes",
+        "TiposPrimitivos",
+        "ResolucaoDeProblemas"
     ],
     "java.debug.settings.onBuildFailureProceed": true
 }

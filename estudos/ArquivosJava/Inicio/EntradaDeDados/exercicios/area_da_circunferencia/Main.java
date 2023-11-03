@@ -14,11 +14,12 @@ public class Main {
 
         System.out.print("Digite o diâmetro da circunferência: ");
         diametro = input.nextDouble();
+        input.close();
+        
         raio = diametro/2;
         area = valorDePi*raio*raio;
         System.out.println("O valor da área foi: " + area);
         
-        input.close();
 
    } 
 }
