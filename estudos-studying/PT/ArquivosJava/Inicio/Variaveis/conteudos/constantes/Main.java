@@ -2,7 +2,7 @@
  * Crie uma constante no java e realize uma operação. Tente também alterar seu valor para verificar o que ocorre
 */
 
-package constantes;
+package conteudos.constantes;
 
 public class Main {
     public static void main(String[] args) {

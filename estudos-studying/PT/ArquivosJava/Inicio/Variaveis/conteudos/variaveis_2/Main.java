@@ -4,7 +4,7 @@
  * 
 */
 
-package variaveis_2;
+package conteudos.variaveis_2;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,5 +1,8 @@
-Tipos Primitivos
+# Tipos Primitivos
 
+
+
+# Tipos Primitivos em Java
 Os tipos primitivos de dados no Java são: int, String, char, long, double, float, boolean, short e byte.
 Os dois últimos são poucos utilizados.
 
