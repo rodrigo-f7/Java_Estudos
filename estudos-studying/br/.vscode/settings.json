@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": [
+        "arquivos_java\\estruturas_de_dados",
+        "arquivos_java\\sites_desafios",
+        "arquivos_java\\poo"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
+}
