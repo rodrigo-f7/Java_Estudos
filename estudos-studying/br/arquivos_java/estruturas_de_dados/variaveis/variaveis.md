@@ -39,7 +39,7 @@ Exemplos:
 
 ### Reais
 
-Nesse caso, são compostos pelos números do conjunto dos números reais. Ou seja, incluem números inteiros, racionais como frações, números decimais, etc., e irracionais.
+Nesse caso, são compostos pelos números do conjunto dos números reais. Ou seja, incluem números inteiros e racionais como frações, números decimais, etc..
 
 * altura = 1.75;
 * pi = 3.1415;
@@ -59,6 +59,18 @@ Exemplo:
 A estrutura das variáveis é a seguinte: primeiro é declarado o seu tipo, dependendo do tipo de linguagem que você utiliza (Java precisa declarar seu tipo, já Python não precisa); segundo lugar define-se o seu nome antes do sinal de atribuição (normalmente "="); depois do sinal de atribuição é digitado o conteúdo da variável, que pode ser todos os tipos já citados.
 
 Vale ressaltar que, uma vez que são **variáveis**, podem ter seus dados modificados. Diferente desses locais de armazenamento, existem também as constantes, que não podem ter seu valor alterado.
+
+## Convenções, Regras e exceções
+
+* Não utilizar acentos e símbolos especiais no nome de variáveis.
+* Não iniciar com números os seus identificadores
+* Não utilizar espaços entre as letras do nome
+* Não utilizar palavras reservadas da linguagem como nome: if, boolean, double são alguns exemplos
+* Utilizar nomes objetivos e concisos com a informação.
+* Case Sensitive: a maior parte das linguagens de programação são case sensitive, ou seja, diferenciam maiúsculas de minúsculas
+* Coerção: algumas variáveis podem receber tipos diferentes de sua declaração, por exemplo, uma variável do tipo real receber um tipo inteiro. No caso do Java, um inteiro ou um double pode receber um char (caracter) como ASCII code, e um double pode receber um inteiro.
+* Atente-se aos padrões e convenções da linguagem para nomes de variáveis, para que torne o seu código mais legível e adequado.
+
 
 # Tipos Primitivos e Variáveis em Java
 
@@ -98,4 +110,48 @@ Para realizar a declaração de variáveis em Java, é realizado da seguinte man
 
 `tipo nomedavariável = conteudo`
 
-O Java é uma linguagem fortemente e estaticamente tipada, por isso é necessário que as variáveis possuam seus tipos declarados antes de sua definição e nunca possuam valores diferentes de sua declaração. Por exemplo 
+O Java é uma linguagem fortemente e estaticamente tipada, por isso é necessário que as variáveis possuam seus tipos declarados antes de sua definição e nunca possuam valores de tipos diferentes de sua declaração. Por exemplo: se eu declarasse:
+
+```java
+    ...
+    int num = 12;
+    num = "Gato";
+
+```
+Isso iria resultar em um erro, já que a variável num somente pode receber inteiros. Também, você não pode declarar uma variável duas vezes, da seguinte forma:
+
+```java
+    ...
+    String nome = "Rodrigo";
+    String nome = "Jose";
+```
+
+## Instruções de Variáveis
+
+A instrução relacionada às variáveis é a atribuição e existem pontos interessantes a serem ressaltados. Na definição de um valor, observe o seguinte exemplo:
+
+```java
+    ...
+    int num = 12;
+    num = 23;
+
+    String nome = "Rodrigo";
+    nome = "Vazio";
+
+    num = 90;
+```
+
+O código acima faz o seguinte: declara uma variável num com valor 12, depois altera esse valor para 23 (o valor 12 foi destruído). Isso é chamado de um processo destrutivo. Depois declara uma variável nome com valor = "Rodrigo" e depois altera esse valor para "Vazio". Por último altera o valor de num para 90. É interessante destacar a ordem com que foram executadas as instruções. O valor de num e nome começam de uma forma e terminam com outros valores, nesse caminho seus valores podem ser utilizados lendo-se na memória do computador, sendo chamado de um processo não destrutivo.
+
+## Convenções e Regras de Variáveis
+
+Para facilitar a legibilidade de código, utiliza-se convenções e padrões da linguagem. Estes são os padrões para as Variáveis do Java:
+
+* Declare cada variável em uma declaração separada das outras. Isto ajuda na legibilidade e na documentação do arquivo fonte.
+* Siga os padrões da linguagem para nomes, no caso o camelCase, as variáveis começam com letra minúscula e, quando são palavras compostas, as próximas começam com letra maiúscula. Para constantes é utilizado o SCREAMING_SNAKE_CASE, todas com letras maiúsculas e separados por underline.
+* Dê nomes convenientes para a informação da variável, evitando abreviar ou colocar nomes sem sentido como x, y, z, etc.
+* Não utilizar símbolos especiais, acentos ou palavras-chave da linguagem.
+
+## Por que não utilizar float e double para representar dinheiro nas linguagens de programação?
+
+Uma vez que as linguagens, quando compilam seus códigos, passam para a linguagem de máquina os números na base 2, isto pode gerar alguns erros de precisão. Não à toa que, muitas vezes, quando se executam operações entre doubles e float acaba gerando valores com digitos imprecisos, por exemplo, se você multiplica 0,01 por 10, não acaba gerando exatamente 0,1, mas 0.099999999786..., algo semelhante. Por isso, realizando muitas operações com o dinheiro, pode ocorrer de se tornar algo muito impreciso, motivo pelo qual é melhor utilizar inteiro ou "BigDecimal" para representar dinheiro.
