@@ -1,1 +1,0 @@
-# Resolução da Calculadora - Aprendizados
