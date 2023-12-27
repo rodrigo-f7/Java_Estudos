@@ -21,26 +21,25 @@ public class ExpressoesComplexas {
         input.close();
 
         double exp001 = (num001 + num002) * (Math.pow(num003, 2) + 2);
-        System.out.println(exp001);
+        System.out.printf("exp001 = %.2f%n", exp001);
 
         boolean exp002 = (num001 * num002) == num003 & num003-num002<num001;
-        System.out.println(exp002);
+        System.out.printf("exp002 = %b%n", exp002);
         
         boolean auxExp001 = (num001)/(Math.sqrt(num002) - num003) > num002/num001 - 18; 
         boolean auxExp002 = num001 * (num002 + num003) < num003 % num002 + 12;
         boolean auxExp003 = Math.pow(num001,2) - num002/2 == num003/4;
         boolean exp003 =  auxExp001 && (auxExp002 || auxExp003);
-        System.out.println(exp003);
+        System.out.printf("exp003 = %b%n", exp003);
 
         double tern001 = (num001 + num002 == num003) ? (num001+num002+num003)/3 : num001 - num002 - num003;
-        System.out.println(tern001);
+        System.out.printf("ternário001 = %.2f%n", tern001);
 
         double tern002 = (num002 - num001 < num003/2) ? (Math.pow(2,Math.pow(num001, 2))) : (Math.pow(num002,0.5));
-        System.out.println(tern002);
+        System.out.printf("ternário002 = %.2f%n", tern002);
 
         double tern003 = (num001 > num002/4 && num003/3 != num001+num002) ? 2*num001 : num001/3;
-        System.out.println(tern003);
-
+        System.out.printf("ternário003 = %.2f%n", tern003);
 
     }
 }
