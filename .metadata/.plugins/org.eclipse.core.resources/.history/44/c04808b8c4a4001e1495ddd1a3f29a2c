@@ -1,0 +1,61 @@
+# Conceitos Básicos do Java
+Neste documento estarão informações básicas e teóricas a respeito da linguagem Java
+
+## História do Java
+
+Entender sobre os processos passados antes de aprender algo é fundamental. Por isso esse tópico se dedicará totalmente para destacar um pouco da história do Java, como ele se desenvolveu e qual o seu propósito, de maneira resumida e objetiva.
+
+### Linhagem do Java
+Java é uma linguagem de programação orientada a objetos com sintaxe influenciada das linguagens de programação C e C++. Muito de sua sintaxe advém da linguagem C, enquanto que os fundamentos da OOP vêm de grande parte da linguagem C++. Como muitas linguagem de programação, o Java veio com o intuito de resolver problemas que seus anteriores não conseguiam, no caso, problemas que as linguagens C e C++ enfrentavam.
+
+#### Sobre a Linguagem C
+
+* Linguagem Estruturada, Poderosa e Eficiente
+* Surgiu por volta dos anos 70 influenciada pelas Linguagens B e BCPL
+* Não era tão difícil de aprender quanto Assembly em sua época e era mais eficiente do que BASIC
+* Revolucionou a área da programação
+
+#### Sobre a Linguagem C++
+
+* Chegou-se o limite das linguagens de programação estruturadas: muitos projetos de grande porte acabam ficando difíceis de entender com essas linguagens
+* Surgimento de um novo paradigma de programação: Paradigma de Orientação a Objetos
+* Criado C++ na Bell Laboratories por Bjarne Stroustrup em 1979
+* Baseada em C, porém com implementações da programação Orientada a Objetos
+
+### O Surgimento do Java
+A linguagem de programação Java foi criado pela Equipe de James Gosling na empresa Sun MicroSystems no ano de 1991. Inicialmente chamada de Oak, seu nome foi somente efetivizado em 1995. Apesar de que a sua maior importância hoje em dia seja no Back-End e na Web, Java em seu período de criação possuía outras motivações.
+
+Na verdade, o objetivo inicial do Java era criar uma linguagem de plataforma independente e eficiente capaz de executar instruções de CPUs controladoras em dispositivos eletrodomésticos, como controles remotos e microondas.
+
+Isto foi necessário pois as linguagens C e C++ foram compiladas para propósitos específicos, sendo preciso compilar a linguagem para a incrementação em dispositivos diferentes, o que consumia tempo e esforço. A solução mais prática portanto era criar uma linguagem que possibilitava rodar em uma variedade de CPUs.
+
+Embora tenha sido esta sua meta inicial, executando-a de maneira eficiente, o Java continuou obscuro para as empresas de eletrônicos e não fez sucesso por um tempo. Porém, com o advento da Internet, esta linguagem viu a oportunidade para agir novamente, já que, com todas as conexões feitas entre os computadores, era necessário haver uma linguagem que se era compreendida por todos esses computadores, ou seja, portátil, de plataforma independente.
+
+E assim o Java conseguiu o seu sucesso, enquanto que inicialmente nasceu para criar programas embarcados em eletrônicos, agora o Java renasce no intuito de resolver o problema da Internet, auxiliando no processo de portabilidade de código na WWW.
+
+A despeito de ser semelhante à linguagem C++, o Java não pode ser chamado de uma "extensão" dessa linguagem para a Internet. Criadas com propósitos diferentes, o Java conseguiu aprimorar princípios da POO (Programação Orientada a Objetos), possibilitou o uso de multithreading e a aplicação de classes que facilitam o acesso à Internet.
+
+### O Impacto do Java na Internet
+
+Os principais impactos do Java com a WWW foram com os Applets, a Segurança e a Portabilidade.
+#### Applets
+
+Os applets eram pequenos programas rodados em navegadores compatíveis com o Java Web que executavam funções simples como exibir dados do servidor, receber dados do usuário, criar calculadores simples, etc.
+Eles, então, àquele tempo, foram fundamentais para a circulação das informações e para explorar uma outra dimensão das páginas web. Porém sua derrocada chegou na Web, apesar de que, hodiernamente, poucas aplicações ainda utilizam applets, seu suporte foi finalmente finalizado com o JDK 11.
+
+#### Segurança
+
+Com a construção processual da Internet, uma atividade muito comum reproduzida nela eram os Downloads. Baixar um programa na Internet representava "inserir" uma série de códigos em sua máquina, o que podia ocorrer em um ou mais desses códigos ser malicioso e danoso ao computador do cliente, um exemplos deles são vírus, cavalos de Tróia, Spywares e outros programas prejudiciais.
+Assim, o Java nesse sentido vem para, com suas ferramentas e aparatos, isolar as aplicações em seu ambiente de execução para serem testadas sem danificar o sistema do usuário, verificando se aquela aplicação possui algum problema ou código perigoso.
+
+#### Portabilidade
+
+Princípio básico do Java, sendo uma linguagem de plataforma independente, o Java foi fundamental para haver a conexão entre os computadores, que possuem diferentes CPUs e Sistemas Operacionais. É muito mais prático ter um programa na mesma versão rodando em vários computadores da Internet a ter várias versões do mesmo espalhados por não possuir compatibilidade com processadores, navegadores ou Sistemas Operacionais diferentes. Por isso, o Java é egrégio para manter um ambiente prático e dinâmico de execução das aplicações.
+
+### ByteCode
+
+O ponto chave do Java são os seus ByteCodes, que subsidiaram nos problemas da segurança e da portabilidade no ciberespaço
+
+
+## O que é
+

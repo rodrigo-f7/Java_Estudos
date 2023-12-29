@@ -1,0 +1,48 @@
+package condicionais.exercicios.desconto;
+
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+/*
+ * Rodrigo Pereira Faria
+ * 27/12/23
+ * Exercício do Desconto dado se o valor do produto for alto
+ * */
+
+public class DescontoAltoValorDoProduto {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Digite o valor do produto em R$: ");
+		final double valorProduto = input.nextDouble();
+		double valorFinal = valorProduto;
+		int AltoValor = 500;
+		boolean PossuiAltoValor = valorProduto >= AltoValor;
+		
+		if(PossuiAltoValor) {
+			System.out.println("É de alto valor. Aplicando desconto de 10%.");
+			double desconto = valorProduto * 10/100;
+			valorFinal = valorProduto - desconto;
+		} else {
+			System.out.println("Não é de alto valor, não será aplicado desconto.");
+		}
+		
+		
+		if (valorFinal != valorProduto ) {
+			System.out.printf(
+					"Valor Inicial: %.2fR$%nValor Final: %.2fR$"
+					, valorProduto
+					, valorFinal
+
+			);
+		} else {
+			System.out.println("Valor do Produto = " + valorProduto + "R$");
+		}
+		
+	}
+}
+/*
+ * Crie um programa que recebe um valor do teclado para um valor de produto, caso o valor do produto seja maior do que 500, coloca um desconto 10% sobre o valor do produto
+ */
+

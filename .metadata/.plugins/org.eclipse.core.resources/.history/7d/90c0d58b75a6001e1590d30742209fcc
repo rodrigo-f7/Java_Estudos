@@ -1,0 +1,19 @@
+package condicionais.exercicios.abono_salarial;
+
+import java.util.Scanner;
+
+/*
+ * 29/12/2023
+ * Rodrigo Pereira Faria
+ * Programa Abono Salarial da Empresa 
+ */
+
+public class AbonoSalarialXSoftware {
+
+	public static void main(String[] args) {
+		System.out.println("=== Programa do Abono Salarial da XSoftware");
+		Scanner input = new Scanner(System.in);
+		System.out.print("");
+	}
+
+}

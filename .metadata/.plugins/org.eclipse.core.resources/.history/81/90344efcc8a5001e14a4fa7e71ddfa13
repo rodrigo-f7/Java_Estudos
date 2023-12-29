@@ -1,0 +1,5 @@
+package vetores.ex_simples;
+
+public @interface Annotation {
+
+}

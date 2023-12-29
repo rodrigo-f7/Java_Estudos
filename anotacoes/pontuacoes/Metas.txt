@@ -1,0 +1,3 @@
+Criar uma cópia do paint
+Criar um editor de texto semelhante ao Word
+Criar um jogo simples no Java

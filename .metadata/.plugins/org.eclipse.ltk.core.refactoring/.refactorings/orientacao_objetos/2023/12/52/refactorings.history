@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;Inicio.exercicio_do_calculo_area&apos; to &apos;inicio.exercicio_do_calculo_area&apos;&#x0A;- Original project: &apos;orientacao_objetos&apos;&#x0A;- Original element: &apos;orientacao_objetos/src/Inicio.exercicio_do_calculo_area&apos;&#x0A;- Renamed element: &apos;orientacao_objetos/src/inicio.exercicio_do_calculo_area&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;Inicio.exercicio_do_calculo_area&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;Inicio.exercicio_do_calculo_area" name="inicio.exercicio_do_calculo_area" qualified="false" references="true" stamp="1703685308455" textual="false" version="1.0"/>
+</session>

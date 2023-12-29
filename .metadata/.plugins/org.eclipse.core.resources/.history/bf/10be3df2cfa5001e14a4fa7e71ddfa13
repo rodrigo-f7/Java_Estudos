@@ -1,0 +1,13 @@
+# Estruturas de Repetição
+
+Imagine que em seu algoritmo você necessite de exibir todos os números divisíveis por 3 até 50. Para realizar sem as estruturas de repetição, seria algo muito demorado e repetitivo, agora com essa ferramenta torna-se muito mais fácil de se executar.
+As estruturas de repetição, também chamadas de laços de repetição ou loops, são estruturas na programação que permitem a repetição de comandos dada uma condição.
+
+## Estrutura While
+
+A estrutura While (traduzida é enquanto...) realiza uma série de instruções até que uma condição seja satisfeita. Caso não a seja, continua executando as instruções.
+
+É interessante exercitar a estrutura While com joguinhos ou vericação de números ou tipos para melhorar sua habilidade com essa ferramenta
+
+## Estrutura For
+

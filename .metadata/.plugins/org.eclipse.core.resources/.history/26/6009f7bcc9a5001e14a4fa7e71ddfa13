@@ -1,0 +1,13 @@
+package vetores.ex_simples;
+
+public class Vetores {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double[] numeros = new double[] {2.0, 4.0, 7.0, 14.0};
+		//int somaPrimeiroComUltimo = numeros[1] + numeros[4]; Erro pois índice 4 não, vai de 0 a 3
+		int somaPrimeiroComUltimo = (int) (numeros[0] + numeros[3]);
+		System.out.println(somaPrimeiroComUltimo);
+	}
+
+}

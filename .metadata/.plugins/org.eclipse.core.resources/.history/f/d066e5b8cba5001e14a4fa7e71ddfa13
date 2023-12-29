@@ -1,0 +1,3 @@
+# Sobre o Exemplo Simples
+
+Este exemplo será para testar os aspectos mais básicos de um vetor. Crie um vetor do tipo double com 4 elementos, acesse seus valores exibindo-os na tela e realize cálculos com eles. Calcule a soma do primeiro com o último termo (sem programação funcional); dos termos do meio (de índices 1 e 2), a média e a subtração.

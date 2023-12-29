@@ -1,0 +1,4 @@
+# Estruturas de Repetição
+
+Imagine que em seu algoritmo você necessite de exibir todos os números divisíveis por 3 até 50. Para realizar sem as estruturas de repetição, seria algo muito demorado e repetitivo, agora com essa ferramenta torna-se muito mais fácil de se executar.
+As estruturas de repetição, também chamadas de laços de repetição ou loops, são estruturas na programação que permitem a repetição de comandos dada uma condição.

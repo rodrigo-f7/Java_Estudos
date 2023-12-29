@@ -1,0 +1,21 @@
+package condicionais.exercicios.meses;
+
+import java.util.Scanner;
+
+/*
+ * 28/12/23
+ * Rodrigo Pereira Faria
+ * Programa da Contagem dos Meses
+ */
+
+public class ContandoMesesComSwitch {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+		System.out.println("=== Programa da Contagem Dos Meses ===");
+		System.out.print("Digite o número do mês de 1 a 12.");
+		int numMes = input.nextInt();
+	}
+}
+

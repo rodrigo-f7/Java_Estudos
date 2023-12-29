@@ -1,0 +1,5 @@
+# Enunciado do Exercício dos meses
+
+Crie um programa que lê um número de 1 a 12 do teclado referente aos meses utilizando o switch case. Caso seja 1, vai aparecer Janeiro, 2 Fevereiro e por aí vai.
+
+# Anotações

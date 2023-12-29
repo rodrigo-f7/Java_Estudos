@@ -1,0 +1,10 @@
+package condicionais.exercicios.abono_salarial;
+
+public class AbonoSalarialXSoftware {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

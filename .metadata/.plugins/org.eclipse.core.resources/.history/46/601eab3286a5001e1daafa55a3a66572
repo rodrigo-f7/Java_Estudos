@@ -1,0 +1,10 @@
+package condicionais.exercicios.gastos_amazon_prime;
+
+public class GastosAmazonPrime {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

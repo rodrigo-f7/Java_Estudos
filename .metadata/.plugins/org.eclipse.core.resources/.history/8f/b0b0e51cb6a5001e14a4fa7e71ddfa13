@@ -1,0 +1,108 @@
+package condicionais.exercicios.gastos_amazon_prime;
+
+import java.util.Scanner;
+
+/*
+ * 28/12/23
+ * Rodrigo Pereira Faria
+ * Programa de Planejamento de Gastos com Amazon Prime
+ */
+
+public class GastosAmazonPrime {
+
+	public static void main(String[] args) {
+		System.out.println("=== Planejando gastos com Amazon Prime ===");
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Qual o seu plano desejado: mensal ou anual?");
+		System.out.println("Para mensal: R$14,90 p mês, para anual: R$119,00 p ano");
+		
+		System.out.println("Plano = ");
+		String plano = input.nextLine();
+		
+		System.out.print("Digite o tempo para ser verificado em anos: ");
+		int tempoAnos = input.nextInt();
+		
+		boolean verificarPlanoMensal = plano.equalsIgnoreCase("mensal");
+		boolean verificarPlanoAnual = plano.equalsIgnoreCase("anual");
+				
+		double valorPlanoAtual = 0;
+		double valorPlanoOposto = 0;
+		double valor1AnoAtual = 0;
+		double valor1AnoOposto = 0;
+
+		boolean flag = true;
+		//Colocar flag para não dar erro caso o usuário digite algo errôneo
+		if(flag){
+			if(verificarPlanoMensal){
+				valorPlanoAtual = 14.90;
+				valorPlanoOposto = 119;
+				valor1AnoAtual = valorPlanoAtual * 12;
+				valor1AnoOposto = valorPlanoOposto;
+				flag = false;
+			} 
+			else if (verificarPlanoAnual){
+				valorPlanoAtual = 119;
+				valor1AnoAtual = valorPlanoAtual;
+				valorPlanoOposto = 14.90;
+				valor1AnoOposto = valorPlanoOposto * 12;
+				flag = false;
+			} 
+			else {
+				System.out.println("Houve erro na sua digitação");
+			}
+		}
+		if(!flag) {
+			System.out.println(valorPlanoAtual);
+			System.out.println(valorPlanoOposto);
+		}
+		
+		
+	}
+}
+
+/*
+ * Vai, homem, e impulsiona-te à tua meta. Tenha fé que você já conseguiu.
+ * 
+ * Você está planejando assinar o plano Amazon Prime e gostaria de saber quanto você gastará ao longo do tempo
+ * Crie um programa que recebe como entrada do usuário o tipo do plano Amazon Prime (mensal ou anual) e o tempo de anos utilizando o plano. Realize o cálculo, se necessário, para 1 ano e para os próximos n anos. Exibe ao final o preço que será pago em 1 ano para ambos planos, variando de acordo com o seu plano atual, a diferença nesse contexto, o preço que será pago nos próximos n anos para cada um dos planos junto com suas diferenças.
+ * 
+ * Como fazer? 
+ * Receba como entrada do usuário como String o tipo do plano Amazon Prime
+ * Receba como entrada também o tempo
+ * Criar variáveis valorPlanoAtual, valorPlanoOposto, valor1AnoAtual, valor1AnoOposto. 
+ * Crie as condições para determinar valor de pagamento. Se for mensal, valorPlano = 14,90; se for anual, valorPlano = 119,0.
+ * Armazene o valor do pagamento em uma variável chamada valorPlano que vai passar em um if:
+ * Nesse if também será feito o cálculo de 1 ano de pagamento para caso seja necessário.
+ * Se(plano == mensal){
+ * 		valorPlanoAtual = 14,90
+ * 		valor1AnoAtual = valorPlano * 12;
+ * 		valorPlanoOposto = 119,00;
+ * 		valor1AnoOposto = valorPlanoOposto;
+ * } senão se(plano == anual){
+ * 		valorPlanoAtual = 119,90
+ * 		valor1AnoAtual = valorPlano;
+ * 		valorPlanoOposto = 14,90;
+ * 		valor1AnoOposto = 14,90 * 12
+ * }
+ * senão{
+ * 		Exibe("Erro na digitação") // Posso aprimorar com um while e com isso criar uma estrutura de tratamento de exceções
+ * }
+ * 
+ * Verificar diferença entre os dois anos primários.
+ * 
+ * Calcular para n anos
+ * valorAnosVarPlanoAtual = valor1AnoAtual * tempoAnos;
+ * valorAnosVarPlanoOposto = valor1AnoAtual * tempoAnos;
+ * 
+ * Verificar diferença entre os dois planos com anos variáveis
+ * 
+ * Cálculos:
+ * Mensal = 14,90
+ * 1 ano em mensal = 14,90 * 12, logo tem-se 178,80
+ * diferença1Ano = 178,80 - 119 = 59,80
+ * Se tempo anos = 5
+ * valorAnosVarPlanoAtual = 178,8 * 5 = 894 
+ * valorAnosVarPlanoOposto = 119 * 5 = 595
+ * diferançaAnosVar = 894 - 595 = 299
+ */

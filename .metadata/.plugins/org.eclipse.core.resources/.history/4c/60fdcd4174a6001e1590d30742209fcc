@@ -1,0 +1,18 @@
+# Exercício do Abono Salarial da Empresa XSoftware
+
+A empresa XSoftwares Ltda. concedeu um bônus de 20 por cento do valor do salário a todos os funcionários com tempo de trabalho na empresa igualou superior a cinco anos e de 10 por cento aos demais. Calcular e exibir o valor do bônus.
+
+## Anotações do Exercício
+
+Será dado um bônus de 20% para o salário do funcionário que ficou na empresa com tempo igual ou superior a 10 anos. Isto pode ser feito dando entrada no salário e nos anos trabalhados pelo funcionário por meio do teclado. Os que não trabalharam acima de 10 anos, receberão bônus de 10%.
+
+Ou seja, se anosTrabalhados >= 10 anos, recebe bônus de 20%, senão, recebe bônus de 10%. Portanto, será necessário calcular o acréscimo sobre o salário do funcionário.
+Um exemplo: se o funcionário recebe 5000 e está há mais de 10 anos na empresa, o resultado do seu abono tem que ser:
+
+5000 * 1,2 ou 5000 + (5000*20/100)
+
+### Como fazer?
+
+* Dê entrada no salário do funcionário e em seus anos trabalhados
+* Criar condição sobre se é maior do que 10 anos o tempo de trabalho.
+* Se for verdadeira, vai exibir na tela "Você recebeu um abono de 20%"

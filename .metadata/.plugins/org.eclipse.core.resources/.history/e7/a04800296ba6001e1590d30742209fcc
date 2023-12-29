@@ -1,0 +1,17 @@
+package condicionais.exercicios.verificar_impar;
+
+import javax.swing.JOptionPane;
+
+/*
+ * 29/12/23
+ * Rodrigo Pereira Faria
+ */
+
+public class VerificandoImparOuPar {
+
+	public static void main(String[] args) {
+		JOptionPane.showMessageDialog(null, "=== Programa Par ou Ímpar === ");}
+		JOptionPane.showMessageDialog(null, "A");
+
+}
+

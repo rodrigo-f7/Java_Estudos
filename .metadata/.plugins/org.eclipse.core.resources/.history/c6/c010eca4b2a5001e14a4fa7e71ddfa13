@@ -1,0 +1,59 @@
+package condicionais.exercicios.gastos_amazon_prime;
+
+import java.util.Scanner;
+
+/*
+ * 28/12/23
+ * Rodrigo Pereira Faria
+ * Programa de Planejamento de Gastos com Amazon Prime
+ */
+
+public class GastosAmazonPrime {
+
+	public static void main(String[] args) {
+		System.out.println("=== Planejando gastos com Amazon Prime ===");
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Qual o seu plano desejado: mensal ou anual?");
+		System.out.println("Para mensal: R$14,90 p mês, para anual: R$119,00 p ano");
+		
+		System.out.println("Plano = ");
+		String plano = input.nextLine();
+		
+		System.out.println("Digite o tempo em anos: ");
+		int tempoAnos = input.nextInt();
+		boolean verificarPlanoMensal = plano.equalsIgnoreCase("mensal");
+		boolean verificarPlanoAnual = plano.equalsIgnoreCase("anual") 
+		double valorPlano = 0;
+		||
+	}
+}
+
+/*
+ * Vai, homem, e impulsiona-te à tua meta. Tenha fé que você já conseguiu.
+ * 
+ * Você está planejando assinar o plano Amazon Prime e gostaria de saber quanto você gastará ao longo do tempo
+ * Crie um programa que recebe como entrada do usuário o tipo do plano Amazon Prime (mensal ou anual) e o tempo de anos utilizando o plano. Realize o cálculo, se necessário, para 1 ano e para os próximos n anos. Exibe ao final o preço que será pago em 1 ano para ambos planos, variando de acordo com o seu plano atual, a diferença nesse contexto, o preço que será pago nos próximos n anos para cada um dos planos junto com suas diferenças.
+ * 
+ * Como fazer? 
+ * Receba como entrada do usuário como String o tipo do plano Amazon Prime
+ * Receba como entrada também o tempo
+ * Criar variáveis valorPlanoAtual, valorPlanoOposto, valor1AnoAtual, valor1AnoOposto. 
+ * Crie as condições para determinar valor de pagamento. Se for mensal, valorPlano = 14,90; se for anual, valorPlano = 119,0.
+ * Armazene o valor do pagamento em uma variável chamada valorPlano que vai passar em um if:
+ * Nesse if também será feito o cálculo de 1 ano de pagamento para caso seja necessário.
+ * Se(plano == mensal){
+ * 		valorPlano = 14,90
+ * 		valor1Ano = valorPlano * 12;
+ * } senão se(plano == anual){
+ * 		valorPlano = 119,90
+ * 		valor1Ano = valorPlano;
+ * }
+ * 
+ * Verificar diferença entre os dois
+ * diferença = 180 - 
+ * 
+ * Cálculos:
+ * Mensal = 14,90
+ * 1 ano em mensal = 14,90 * 12, logo tem-se 178,80
+ */

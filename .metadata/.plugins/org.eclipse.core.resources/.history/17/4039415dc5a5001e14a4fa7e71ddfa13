@@ -1,0 +1,15 @@
+package condicionais.exercicios.meses;
+
+/*
+ * 28/12/23
+ * Rodrigo Pereira Faria
+ */
+
+public class ContandoMesesComSwitch {
+
+	public static void main(String[] args) {
+		
+
+	}
+}
+
